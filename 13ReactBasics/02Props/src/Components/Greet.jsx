@@ -15,4 +15,20 @@ function Greet(props) {
   )
 }
 
+
+// Destructuring props
+
+
+// function Greet({name, city}) { // method1 to destructor
+//    const[name, city] = props; // method 2 to destructor
+//   return (
+//     // 2nd type
+//     <div>
+//     <h1>welcome {name} in {city}</h1>
+//     {props.children}
+//   </div>
+//   )
+// }
+
+
 export default Greet
