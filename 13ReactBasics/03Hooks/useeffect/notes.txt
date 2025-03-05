@@ -1,0 +1,5 @@
+the useeffect hook is used to handle side effects in functional components. 
+It is used to handle the side effects like
+1 -> fetching data from API
+2 -> directly updating the DOM
+3 -> setting timers(like setTimeout and setInterval)
