@@ -1,0 +1,7 @@
+useCallback is areact hoo that lets you cache a function definition btw re-renders
+
+it means, when we use the useCallback hook, it doesn't create multiple
+instances of same function when re-renders happens
+
+instead of creating new instance of function, it provides the cached function on re-render
+of component
