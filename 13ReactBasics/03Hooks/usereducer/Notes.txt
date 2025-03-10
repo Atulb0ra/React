@@ -1,0 +1,12 @@
+useReducer is similar to useState, But insted of providing
+state and setter function it provides state and dispatch function.
+
+the use reducer hook accepts two arguments
+-Reducer Function
+-initial state 
+and returns : current state and dispatch method
+
+the reducer function specifies how the function gets updated.
+
+when we use useReducer we can efficiently update the state for different action
+
